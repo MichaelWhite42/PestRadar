@@ -1,0 +1,66 @@
+.dashboardTable {
+    margin: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px 0 rgba(167, 183, 193, 0.5);
+    color: #2d4b66;
+}
+
+.dashboardTable_headTable {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+.headTable_settings {
+    display: flex;
+    align-items: center;
+}
+.headTable_tabs {
+    margin-right: 15px;
+}
+.headTable_tabs--btn {
+    background-color: #f0f5fa;
+    padding: 10px 30px;
+    border-right: 2px solid #fff;
+    cursor: pointer;
+    color: #8997a3;
+}
+.headTable_tabs--btn:hover {
+    background: #dce8f5;
+}
+.headTable_tabs--btn-active {
+    color: #1f3b51;
+}
+.daySelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selectPeriod {
+    word-wrap: break-word;
+    width: 50px;
+    color: rgba(0,0,0, 0.4);
+    margin-right: 10px;
+}
+.calendar {
+    border: none;
+    padding: 7px 10px;
+    outline: none;
+    background: #f0f5fa;
+    margin-right: 10px;
+}
+input[type="date"]::before {
+	color: #999999;
+	content: attr(placeholder);
+}
+input[type="date"] {
+	color: #f0f5fa;
+}
+input[type="date"]:focus,
+input[type="date"]:valid {
+	color: #666666;
+}
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+	content: "" !important;
+}

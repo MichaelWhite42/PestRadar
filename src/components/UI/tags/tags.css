@@ -1,0 +1,14 @@
+.eventTag {
+    display: flex;
+}
+.tag {
+    background: #1f3b51;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 10px 10px 0 0;
+    opacity: 0.5;
+    border-radius: 2px;
+}
+.tag_red {
+    background: #e02020;
+}

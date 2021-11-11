@@ -1,0 +1,12 @@
+.btn {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+.btn_green {
+    background: #00993d;
+}
+.btn_red {
+    background: #c64848;
+}
