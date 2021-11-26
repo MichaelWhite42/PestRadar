@@ -1,4 +1,5 @@
 import React from "react";
+import Checkbox from "../UI/checkbox/toggleCheckbox";
 
 const SettingCard = () => {
     return (
@@ -8,7 +9,7 @@ const SettingCard = () => {
             </div>
             <div className="checkBoxContainer">
                 <label> Active
-                    <input className="checkbox" type="checkbox" />
+                    <Checkbox />
                     <span className="check">   
                     </span> Deactivate
                 </label>

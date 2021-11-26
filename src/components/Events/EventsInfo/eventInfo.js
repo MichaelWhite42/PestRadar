@@ -12,17 +12,11 @@ const EventInfo = () => {
         text: 'Delete Event',
         color: 'red',
         icon: 'trash',
-        fncBtn: () => {
-            console.log('click1');
-        }
     }
     const btnExportFile = {
         text: 'Export Event',
         color: 'green',
         icon: 'export',
-        fncBtn: () => {
-            console.log('click2');
-        }
     }
     return (
         <div className="eventsInfo">
@@ -40,13 +34,12 @@ const EventInfo = () => {
             </div>
             <div className="eventsInfo--item eventsInfo_bottom">
                 <div className="eventsInfo_tags">
-                    <Tags tagName={"Fire"}/>
-                    <Tags tagName={"Animals"}/>
-                    <Tags tagName={"Water"}/>
+                    <Tags tagName="Fire"/>
+                    <Tags tagName="Animals"/>
+                    <Tags tagName="Water"/>
                 </div>
                 <div className="eventsInfo--item eventsInfo_buttons">
                     <Button {...btnDeleteEvent} />
-                    <span className='br'/>
                     <CSVLink {...csvReport}>
                         <Button {...btnExportFile} />
                     </CSVLink>

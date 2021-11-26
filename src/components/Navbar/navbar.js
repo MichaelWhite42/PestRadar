@@ -11,7 +11,7 @@ const Navbar = () => {
     const activeTab = useSelector(state => state.tabReducer.activeTab)
 
     const menuList = [
-        {name: "Dashboard", link: "/dashboard", id: TABS.DASHBOARD,},
+        {name: "Dashboard", link: "/", id: TABS.DASHBOARD,},
         {name: "Events", link: "/events", id: TABS.EVENTS,},
         {name: "Modules", link: "/modules", id: TABS.MODULES,},
         {name: "Settings", link: "/settings", id: TABS.SETTINGS,},

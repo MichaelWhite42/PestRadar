@@ -29,7 +29,7 @@ export default class EventsPhotosSlider extends React.Component {
         return (
             <div className="eventsPhotoSlider">
                 <h2 className='eventsPhotoSlider_header'>Photo</h2>
-                <Slider {...settings}>
+                <Slider {...settings} className="slider">
                     {data.map(item => (
                         <div className="eventsPhotoSlider_item" key={item.key}>
                             <img className="eventsPhotoSlider_photo" src={item.img} alt="img: Photo"/>

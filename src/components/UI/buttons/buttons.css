@@ -10,3 +10,11 @@
 .btn_red {
     background: #c64848;
 }
+.eventBtn {
+    border-radius: 2px;
+    padding: 5px 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 30px;
+    display: flex;
+}

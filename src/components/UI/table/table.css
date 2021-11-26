@@ -1,0 +1,27 @@
+.table {
+    display: flex;
+    flex-direction: column;
+}
+.table a {
+    color: #1f3b51;
+}
+.table tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.table tr td,
+.table tr th {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    word-break: break-all;
+}
+.table tr td .thumbImg {
+    width: 80px;
+    height: 40px;
+}
+.tableHeader {
+    background: #eef4f8;
+}

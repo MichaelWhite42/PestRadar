@@ -21,7 +21,9 @@ const VideoCard = () => {
             <div className="cardVideo_content">
                 {array.map((item) => {
                     return (
-                        <img src={item.videoImg} />
+                        <div className="videoBox">
+                            <img src={item.videoImg} />
+                        </div>
                     )
                 })}
             </div>

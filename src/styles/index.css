@@ -3,6 +3,9 @@
 @import url(./Navbar/index.css);
 @import url(./Settings/index.css);
 @import url(./Dashboard/index.css);
+@import url(./Events/index.css);
+@import url(/src/components/UI/table/table.css);
+@import url(./Modules/index.css);
 
 @font-face {
     font-family: SFProText;
@@ -14,6 +17,7 @@
 
 body {
     font-family: SFProText;
+    box-sizing: border-box;
 }
 #root {
     height: 100vh;

@@ -5,11 +5,14 @@ const Tags = ({tagName}) => {
     const clsTag = [style.tag];
 
     if (tagName === 'Fire') {
-        clsTag.push(style.tag_red);
+        clsTag.push("tag tag_red");
     };
+    if (tagName === 'Animals' || tagName === 'Water' || tagName === 'Human') {
+        clsTag.push("tag");
+    }
 
     return (
-        <span className={clsTag.join(" ")}>{tagName}</span>
+        <span className={clsTag.join("")}>{tagName}</span>
     )
 }
 

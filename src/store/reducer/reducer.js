@@ -2,10 +2,10 @@ import { SET_GRAPH, SORT_EVENTS_GRAPH } from "../types";
 
 const defaulState = {
     items: [
-        {location: 'Warehouse 1', date: '02/09/21', time: '00:00:00', events: 'Motion Detected', videos: '2/2', source: 'Camera 4', tags: 'Fire',},
-        {location: 'Warehouse 1', date: '02/09/21', time: '00:00:00', events: 'Motion Detected', videos: '2/2', source: 'Camera 4', tags: 'Fire',},
-        {location: 'Warehouse 1', date: '02/09/21', time: '00:00:00', events: 'Motion Detected', videos: '2/2', source: 'Camera 4', tags: 'Fire',},
-        {location: 'Warehouse 1', date: '02/09/21', time: '00:00:00', events: 'Motion Detected', videos: '2/2', source: 'Camera 4', tags: 'Fire',},
+        {location: 'Warehouse 1', date: '02/09/21', time: '00:00:00', motionsDetector: 'Motion Detected', thumbs: 'https://static.turbosquid.com/Preview/2019/02/14__08_05_01/Warehouse_interior_And_Exterior_3D_model_2_render4.jpg62F918EE-996B-40DD-8633-FDA78EEB6E86Default.jpg', videos: '2/2', source: 'Camera 4', tags: 'Fire', key: Math.random()},
+        {location: 'Warehouse 1', date: '02/09/21', time: '00:00:00', motionsDetector: 'Motion Detected', thumbs: 'https://static.turbosquid.com/Preview/2019/02/14__08_05_01/Warehouse_interior_And_Exterior_3D_model_2_render4.jpg62F918EE-996B-40DD-8633-FDA78EEB6E86Default.jpg', videos: '2/2', source: 'Camera 4', tags: 'Fire', key: Math.random()},
+        {location: 'Warehouse 1', date: '02/09/21', time: '00:00:00', motionsDetector: 'Motion Detected', thumbs: 'https://static.turbosquid.com/Preview/2019/02/14__08_05_01/Warehouse_interior_And_Exterior_3D_model_2_render4.jpg62F918EE-996B-40DD-8633-FDA78EEB6E86Default.jpg', videos: '2/2', source: 'Camera 4', tags: 'Fire', key: Math.random()},
+        {location: 'Warehouse 1', date: '02/09/21', time: '00:00:00', motionsDetector: 'Motion Detected', thumbs: 'https://static.turbosquid.com/Preview/2019/02/14__08_05_01/Warehouse_interior_And_Exterior_3D_model_2_render4.jpg62F918EE-996B-40DD-8633-FDA78EEB6E86Default.jpg', videos: '2/2', source: 'Camera 4', tags: 'Fire', key: Math.random()},
     ],
 }
 

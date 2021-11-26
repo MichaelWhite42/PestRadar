@@ -8,10 +8,10 @@ const Button = ({ text, color, icon, fncBtn }) => {
 
     switch (color) {
         case 'red':
-            clsBtn.push(style.btn_red);
+            clsBtn.push("btn_red eventBtn");
             break;
         case 'green':
-            clsBtn.push(style.btn_green);
+            clsBtn.push("btn_green eventBtn");
             break;
     }
 

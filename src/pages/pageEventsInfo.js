@@ -3,11 +3,11 @@ import { EventInfo, EventsVideo, EventPhoto, EventsScreenshots } from "../compon
 
 const PageEventsInfo = () => {
     return (
-        <div className={'container'}>
+        <div className="container">
             <EventInfo />
             <EventsVideo />
-            <EventPhoto />
-            <EventsScreenshots />
+            {/* <EventPhoto />
+            <EventsScreenshots /> */}
         </div>
     )
 }

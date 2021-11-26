@@ -1,0 +1,15 @@
+.eventsVideo {
+    width: 100%;
+    overflow: hidden;
+}
+.slick-slider {
+    overflow: hidden;
+}
+.slick-slider div {
+    display: flex;
+    align-items: center;
+}
+.eventsVideoSlider_item img {
+    width: 100%;
+    height: 100%;
+}

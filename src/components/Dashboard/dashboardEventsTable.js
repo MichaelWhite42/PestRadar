@@ -50,7 +50,7 @@ const DashboardTable = () => {
                     </div>
                 </div>
             </div>
-            {/* <Table data={data}/> */}
+            <Table data={data}/>
         </div>
     )
 }

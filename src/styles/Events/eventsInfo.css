@@ -1,0 +1,26 @@
+.eventsInfo {
+    color: #1f3b51;
+    margin: 25px 40px;
+}
+.eventsInfo_head{
+    display: flex;
+    align-items: flex-end;
+}
+.eventsInfo_header {
+    font-size: 1.5em;
+}
+.eventsInfo--item{
+    display: flex;
+    margin: 10px 0;
+}
+.eventsInfo_dateInfo .eventsInfo_time {
+    margin-left: 15px;
+}
+.eventsInfo_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eventBtn p {
+    margin: 0 10px;
+}

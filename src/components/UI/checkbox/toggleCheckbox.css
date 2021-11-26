@@ -52,7 +52,8 @@ label {
     transform: translateX(0px);
 }
 
-.selectCheckbox .check {
+
+.table span {
     position: relative;
     display: block;
     width: 16px;
@@ -62,27 +63,5 @@ label {
     overflow: hidden;
     border: 1px solid #9bb6c8;
     border-radius: 1px;
-    font-size: 15px;
-    text-align: center;
-    align-content: center;
-}
-.selectCheckbox .check .icon {
-    display: none;
-}
-.selectCheckbox .checkbox:checked ~ .check {
-    border-color: #1f3b51;
-    color: #1f3b51;
-}
-.selectCheckbox .checkbox:checked ~ .check .icon {
-    display: block;
-    font-size: 13px;
-    padding-top: auto;
-    margin-top: 2px;
-}
-.selectCheckbox .checkbox:checked ~ .check::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
+    margin-right: 7px;
 }
