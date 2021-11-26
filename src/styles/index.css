@@ -7,6 +7,7 @@
 @import url(/src/components/UI/table/table.css);
 @import url(./Modules/index.css);
 @import url(./Modules/Tabs/index.css);
+@import url(../components/UI/slider/index.css);
 
 @font-face {
     font-family: SFProText;
@@ -34,4 +35,5 @@ body {
 .container {
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }

@@ -6,8 +6,8 @@ const PageEventsInfo = () => {
         <div className="container">
             <EventInfo />
             <EventsVideo />
-            {/* <EventPhoto />
-            <EventsScreenshots /> */}
+            <EventPhoto />
+            <EventsScreenshots />
         </div>
     )
 }

@@ -1,0 +1,12 @@
+.eventsPhotoSlider {
+    margin: 20px 40px;
+    overflow: hidden;
+}
+.eventsPhotoSlider_item {
+    height: 80px;
+    margin: 0 10px;
+}
+.eventsPhotoSlider_item img {
+    width: 100%;
+    height: 100%;
+}

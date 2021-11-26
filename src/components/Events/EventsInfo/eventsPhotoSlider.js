@@ -8,7 +8,7 @@ export default class EventsPhotosSlider extends React.Component {
         const settings = {
             infinite: false,
             speed: 500,
-            slidesToShow: 5.5,
+            slidesToShow: 8,
             slidesToScroll: 1,
             arrows: true,
             responsive: [
@@ -28,7 +28,7 @@ export default class EventsPhotosSlider extends React.Component {
         }
         return (
             <div className="eventsPhotoSlider">
-                <h2 className='eventsPhotoSlider_header'>Photo</h2>
+                <h2 className='eventsPhotoSlider_header'>Photo {data.length}</h2>
                 <Slider {...settings} className="slider">
                     {data.map(item => (
                         <div className="eventsPhotoSlider_item" key={item.key}>

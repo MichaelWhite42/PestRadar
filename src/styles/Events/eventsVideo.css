@@ -1,13 +1,9 @@
 .eventsVideo {
-    width: 100%;
     overflow: hidden;
+    margin: 20px 40px;
 }
-.slick-slider {
-    overflow: hidden;
-}
-.slick-slider div {
-    display: flex;
-    align-items: center;
+.eventsVideoSlider_item {
+    margin: 0 10px;
 }
 .eventsVideoSlider_item img {
     width: 100%;
