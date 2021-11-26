@@ -41,7 +41,7 @@ const Table = ({data}) => {
             <GetTableHeader/>
             {info.map((item) => {
                 return (
-                    <NavLink to={'/' + item.id}>
+                    <NavLink to={!sort && !checkbox ? '/modules/:info' + item.id : '' || sort && checkbox ? '/events/:info' + item.id : ''}>
                         <tr>
                             {checkbox ? (<label>{checkbox ? checkboxFnc && (<span/>) : ''}</label>) : ''}
                             {!checkbox && !sort ? (<td><div className="statusColor"/>{item.status}</td>) : ''}

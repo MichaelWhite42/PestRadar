@@ -6,6 +6,7 @@
 @import url(./Events/index.css);
 @import url(/src/components/UI/table/table.css);
 @import url(./Modules/index.css);
+@import url(./Modules/Tabs/index.css);
 
 @font-face {
     font-family: SFProText;

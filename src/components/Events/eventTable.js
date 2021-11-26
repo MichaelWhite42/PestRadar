@@ -15,9 +15,9 @@ const EventsTable = () => {
             tags: 'Tags',
         },
         info: [
-            { location: "Warehouse Astarta 1", date: '12/09/2020  14:55:34', events: 'https://cdn.zeplin.io/60ba3ca70f21c9a5abfe2d14/assets/816758EB-133D-4CA2-AEA3-F88D859AC6C0.svg', videos: '2/2', source: 'Module 1', id: Math.random(), tags: ['Fire', 'Animals', 'Human'], key: Math.random(), },
-            { location: "Warehouse Astarta 1", date: '12/09/2020  14:55:34', events: 'https://cdn.zeplin.io/60ba3ca70f21c9a5abfe2d14/assets/816758EB-133D-4CA2-AEA3-F88D859AC6C0.svg', videos: '2/2', source: 'Module 1', id: Math.random(), tags: ['Fire', 'Animals', 'Human'], key: Math.random(), },
-            { location: "Warehouse Astarta 1", date: '12/09/2020  14:55:34', events: 'https://cdn.zeplin.io/60ba3ca70f21c9a5abfe2d14/assets/816758EB-133D-4CA2-AEA3-F88D859AC6C0.svg', videos: '2/2', source: 'Module 1', id: Math.random(), tags: ['Fire', 'Animals', 'Human'], key: Math.random(), },
+            { location: "Warehouse Astarta 1", date: '12/09/2020  14:55:34', events: 'https://cdn.zeplin.io/60ba3ca70f21c9a5abfe2d14/assets/816758EB-133D-4CA2-AEA3-F88D859AC6C0.svg', videos: '2/2', source: 'Module 1', id: '000001', tags: ['Fire', 'Animals', 'Human'], key: Math.random(), },
+            { location: "Warehouse Astarta 1", date: '12/09/2020  14:55:34', events: 'https://cdn.zeplin.io/60ba3ca70f21c9a5abfe2d14/assets/816758EB-133D-4CA2-AEA3-F88D859AC6C0.svg', videos: '2/2', source: 'Module 1', id: '000002', tags: ['Fire', 'Animals', 'Human'], key: Math.random(), },
+            { location: "Warehouse Astarta 1", date: '12/09/2020  14:55:34', events: 'https://cdn.zeplin.io/60ba3ca70f21c9a5abfe2d14/assets/816758EB-133D-4CA2-AEA3-F88D859AC6C0.svg', videos: '2/2', source: 'Module 1', id: '000003', tags: ['Fire', 'Animals', 'Human'], key: Math.random(), },
         ],
         checkbox: true,
         sort: true,

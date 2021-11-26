@@ -5,18 +5,18 @@ const StatusTab = () => {
     return (
         <div className="StatusTab">
             <div className="StatusTab_info">
-                <div className="StatusTab_point">
+                <div className="checkBoxContainer">
                     <label>
                         <Checkbox />
-                        <span className="check">   
-                        </span> Monitor RAD Sensor
+                        <span className="check" />  
+                        Monitor RAD Sensor
                     </label>
                 </div>
                 <div className="checkBoxContainer">
                     <label>
                         <Checkbox />
-                        <span className="check">   
-                        </span> Monitor Video Sensor
+                        <span className="check" />   
+                        Monitor Video Sensor
                     </label>
                 </div>
             </div>

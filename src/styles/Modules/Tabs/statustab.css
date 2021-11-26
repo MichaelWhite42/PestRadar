@@ -1,0 +1,28 @@
+.cameraFunctionalityMenu {
+    padding-left: 10px;
+}
+.StatusTab_info .checkBoxContainer {
+    margin: 10px 0;
+}
+.cameraFunctionalityMenu .resolutionBox {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px 0;
+}
+.cameraFunctionalityMenu .resolutionBox span,
+.cameraFunctionalityMenu .resolutionBox select {
+    margin: 5px 0;
+}
+.cameraFunctionalityMenu .resolutionBox select {
+    border: 1px solid #b9cad8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.cameraFunctionalityMenu .cameraOptions {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
