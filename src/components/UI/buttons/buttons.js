@@ -8,21 +8,21 @@ const Button = ({ text, color, icon, fncBtn }) => {
 
     switch (color) {
         case 'red':
-            clsBtn.push("btn_red eventBtn");
+            clsBtn.push("btn_red event-btn");
             break;
         case 'green':
-            clsBtn.push("btn_green eventBtn");
+            clsBtn.push("btn_green event-btn");
             break;
-    }
+    };
 
     return (
         <button className={clsBtn.join(' ')} onClick={fncBtn}>
             <FontAwesomeIcon icon = {icon === 'trash' ? faTrash : faDownload}/>
-            <p className="btnName">
+            <p className="btn-name">
                 {text}
             </p>
         </button>
-    )
-}
+    );
+};
 
 export default Button;

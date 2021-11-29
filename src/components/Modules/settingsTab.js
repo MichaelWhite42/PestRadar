@@ -3,42 +3,42 @@ import { CartesianGrid, Legend, LineChart, Tooltip, XAxis } from "recharts";
 
 const SettingsTab = () => {
     return (
-        <div className="modulesPageVideoItemStettingsContent">
-            <div className="moduleSettingsInfo">
-                <div className="settingsInfoBox" >
-                    <div className="settingsInfo_title">
+        <div className="modules-page_video-item_settings-content">
+            <div className="module_settings-info">
+                <div className="settings_info-box" >
+                    <div className="settings-info_title">
                         Status:
                     </div> 
                     <span>
                         Online
                     </span>
                 </div>
-                <div className="settingsInfoBox">
-                    <div className="settingsInfo_title">
+                <div className="settings_info-box">
+                    <div className="settings-info_title">
                         Upload Queue:
                     </div>
                     <span>
                         850
                     </span>
                 </div>
-                <div className="settingsInfoBox">
-                    <div className="settingsInfo_title">
+                <div className="settings_info-box">
+                    <div className="settings-info_title">
                         Temperature:
                     </div>
                     <span>
                         22deg
                     </span>
                 </div>
-                <div className="settingsInfoBox">
-                    <div className="settingsInfo_title">
+                <div className="settings_info-box">
+                    <div className="settings-info_title">
                         Frequency:
                     </div>                
                     <span>
                         1900000
                     </span>
                 </div>
-                <div className="settingsInfoBox">
-                    <div className="settingsInfo_title">
+                <div className="settings_info-box">
+                    <div className="settings-info_title">
                         Volts:
                     </div>                
                     <span>
@@ -46,7 +46,7 @@ const SettingsTab = () => {
                     </span>
                 </div>
             </div>
-            <div className="graphicContainer">
+            <div className="graphic-container">
                 <div className="name">
                     Upload Queue
                 </div>
@@ -82,7 +82,7 @@ const SettingsTab = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 };
 
 export default SettingsTab;

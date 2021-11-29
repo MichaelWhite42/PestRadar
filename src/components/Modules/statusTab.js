@@ -3,16 +3,16 @@ import Checkbox from "../UI/checkbox/toggleCheckbox";
 
 const StatusTab = () => {
     return (
-        <div className="StatusTab">
-            <div className="StatusTab_info">
-                <div className="checkBoxContainer">
+        <div className="status-tab">
+            <div className="status-tab_info">
+                <div className="checkbox_container">
                     <label>
                         <Checkbox />
                         <span className="check" />  
                         Monitor RAD Sensor
                     </label>
                 </div>
-                <div className="checkBoxContainer">
+                <div className="checkbox_container">
                     <label>
                         <Checkbox />
                         <span className="check" />   
@@ -20,8 +20,8 @@ const StatusTab = () => {
                     </label>
                 </div>
             </div>
-            <div className="cameraFunctionalityMenu">
-                <div className="resolutionBox">
+            <div className="camera_functionality-menu">
+                <div className="resolution-box">
                     <span>
                         Camera Rotation
                     </span>
@@ -31,8 +31,8 @@ const StatusTab = () => {
                         <option>test</option>
                     </select>
                 </div>
-                <div className="cameraOptions">
-                    <div className="resolutionBox">
+                <div className="camera-options">
+                    <div className="resolution-box">
                         <span>
                             Photo Resolution
                         </span>
@@ -42,7 +42,7 @@ const StatusTab = () => {
                             <option>test</option>
                         </select>
                     </div>
-                    <div className="resolutionBox delay">
+                    <div className="resolution-box delay">
                         <span>
                             Delay
                         </span>
@@ -53,8 +53,8 @@ const StatusTab = () => {
                         </select>
                     </div>
                 </div>
-                <div className="cameraOptions">
-                    <div className="resolutionBox">
+                <div className="camera-options">
+                    <div className="resolution-box">
                         <span>
                             Video Resolution
                         </span>
@@ -64,7 +64,7 @@ const StatusTab = () => {
                             <option>test</option>
                         </select>
                     </div>
-                    <div className="resolutionBox delay">
+                    <div className="resolution-box delay">
                         <span>
                             Delay
                         </span>
@@ -77,7 +77,7 @@ const StatusTab = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default StatusTab;

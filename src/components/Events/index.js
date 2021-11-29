@@ -1,3 +1,3 @@
 import EventsTable from "./eventTable";
 
-export default {EventsTable}
+export default {EventsTable};

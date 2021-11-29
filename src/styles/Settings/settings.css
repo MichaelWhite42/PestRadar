@@ -1,5 +1,4 @@
-
-.settingsStatusWindow {
+.settings_status-window {
     border-radius: 10px;
     box-shadow: 1px 2px 6px 0 rgba(167, 183, 193, 0.5);
     margin: 25px 40px;
@@ -11,7 +10,7 @@
     font-size: 18px;
     color: #1f3b51;
 }
-.checkBoxContainer label {
+.checkbox_container label {
     display: flex;
     align-items: center;
 }

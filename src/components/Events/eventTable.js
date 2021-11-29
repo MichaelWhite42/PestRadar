@@ -24,14 +24,13 @@ const EventsTable = () => {
         sortFunction: {
             location: () => {dispatch(SORT_EVENTS_GRAPH("location"))},
             date: () => {dispatch(SORT_EVENTS_GRAPH("date"))},
-        }
-    }
-
+        },
+    };
     return (
-        <div className="eventsInfo">
+        <div className="events-info">
             <Table data={data}/>
         </div>
-    )
-}
+    );
+};
 
 export default EventsTable;

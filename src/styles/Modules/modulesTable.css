@@ -1,10 +1,10 @@
-.modulesTable {
+.modules-table {
     margin: 25px 40px;
     border-radius: 10px;
     box-shadow: 1px 2px 6px 0 rgba(167, 183, 193, 0.5);
     color: #2d4b66;
 }
-.statusColor {
+.status-color {
     width: 10px;
     height: 10px;
     background: #6dd400;

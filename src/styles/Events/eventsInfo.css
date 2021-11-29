@@ -1,26 +1,26 @@
-.eventsInfo {
+.events-info {
     color: #1f3b51;
     margin: 25px 40px;
 }
-.eventsInfo_head{
+.events-info_head{
     display: flex;
     align-items: flex-end;
 }
-.eventsInfo_header {
+.events-info_header {
     font-size: 1.5em;
 }
-.eventsInfo--item{
+.events-info--item{
     display: flex;
     margin: 10px 0;
 }
-.eventsInfo_dateInfo .eventsInfo_time {
+.events-info_tags {
+    display: flex;
+}
+.events-info_dateInfo .events-info_time {
     margin-left: 15px;
 }
-.eventsInfo_bottom {
+.events-info_bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.eventBtn p {
-    margin: 0 10px;
 }

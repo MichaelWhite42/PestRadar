@@ -8,7 +8,7 @@ const ModulesPage = () => {
             <VideoCard />
             <ModulesTable />
         </div>
-    )
-}
+    );
+};
 
 export default ModulesPage;

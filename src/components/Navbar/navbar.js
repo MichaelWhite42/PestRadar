@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <ul className="navbar_menuList">
+            <ul className="navbar_menu-list">
                 {menuList.map((item) => (
                     <li key={item.id}>
                         <NavLink

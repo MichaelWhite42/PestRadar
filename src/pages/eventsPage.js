@@ -6,7 +6,7 @@ const EventsPage = () => {
         <div className="container">
             <EventsTable />
         </div>
-    )
-}
+    );
+};
 
 export default EventsPage;

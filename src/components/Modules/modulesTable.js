@@ -15,20 +15,20 @@ const ModulesTable = () => {
           update: "Updated", 
         },
         info: [
-          { status: "Online", id: "0000001", location: "Astarta Warehouse, Velyka Dymerka, 00000", upload: "3", temperature: "18 °C", updated: "00/00/0000", },
-          { status: "Online", id: "0000002", location: "Astarta Warehouse, Velyka Dymerka, 00000", upload: "3", temperature: "18 °C", updated: "00/00/0000", },
-          { status: "Offline", id: "0000003", location: "Astarta Warehouse, Velyka Dymerka, 00000", upload: "3", temperature: "18 °C", updated: "00/00/0000", },
-          { status: "Online", id: "0000004", location: "Astarta Warehouse, Velyka Dymerka, 00000", upload: "3", temperature: "18 °C", updated: "00/00/0000", },
+          { status: "Online", id: "0000001", location: "Astarta Warehouse", upload: "3", temperature: "18 °C", updated: "00/00/0000", },
+          { status: "Online", id: "0000002", location: "Astarta Warehouse", upload: "3", temperature: "18 °C", updated: "00/00/0000", },
+          { status: "Offline", id: "0000003", location: "Astarta Warehouse", upload: "3", temperature: "18 °C", updated: "00/00/0000", },
+          { status: "Online", id: "0000004", location: "Astarta Warehouse", upload: "3", temperature: "18 °C", updated: "00/00/0000", },
         ],
         sort: false,
         checkbox: false,
         sortFunction: {
           location: () => {dispatch(SORT_EVENTS_GRAPH("location"))},
           date: () => {dispatch(SORT_EVENTS_GRAPH("date"))},
-      }
+      },
     };
     return (
-        <div className="modulesTable">
+        <div className="modules-table">
             <Table data={data}/>
         </div>
     );

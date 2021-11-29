@@ -7,7 +7,7 @@ label {
     visibility: 0;
     display: none;
 }
-.checkBoxContainer .check {
+.checkbox_container .check {
     position: relative;
     display: block;
     width: 40px;
@@ -19,10 +19,10 @@ label {
     transition: ease-in 0.5s;
     margin: 0 10px;
 }
-.checkBoxContainer .checkbox:checked ~ .check {
+.checkbox_container .checkbox:checked ~ .check {
     background: #aaaaaa;
 }
-.checkBoxContainer .check::before {
+.checkbox_container .check::before {
     content: "";
     position: absolute;
     top: 0px;
@@ -33,7 +33,7 @@ label {
     border-radius: 50%;
     transition: 0.4s;
 }
-.checkBoxContainer .check::after {
+.checkbox_container .check::after {
     content: "";
     position: absolute;
     top: 0px;
@@ -51,7 +51,6 @@ label {
 .checkbox:checked ~ .check::after {
     transform: translateX(0px);
 }
-
 
 .table span {
     position: relative;

@@ -3,11 +3,11 @@ import Checkbox from "../UI/checkbox/toggleCheckbox";
 
 const SettingCard = () => {
     return (
-        <div className="settingsStatusWindow">
-            <div className="aiRecognition">
+        <div className="settings_status-window">
+            <div className="settings_ai-recognition">
                 AI Recognition
             </div>
-            <div className="checkBoxContainer">
+            <div className="checkbox_container">
                 <label> Active
                     <Checkbox />
                     <span className="check">   
@@ -15,7 +15,7 @@ const SettingCard = () => {
                 </label>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default SettingCard;

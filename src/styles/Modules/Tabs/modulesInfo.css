@@ -1,4 +1,4 @@
-.ModulesInfo {
+.modules-info {
     margin: 25px 40px;
     border-radius: 10px;
     color: #2d4b66;
@@ -9,7 +9,7 @@
     min-height: 50%;
     max-height: 50%;
 }
-.ModulesInfo_tabs {
+.modules-info_tabs {
     display: flex;
     width: 500px;
     justify-content: space-around;
@@ -17,7 +17,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.ModulesInfo_tabs li {
+.modules-info_tabs li {
     margin: 10px 0;
     cursor: pointer;
     display: flex;
@@ -28,11 +28,11 @@
     background: rgba(0,0,0,0.1);
     box-shadow: inset 1px 2px 6px 0 rgba(167, 183, 193, 0.5);
 }
-.ModulesInfo_tabs li:first-child {
+.modules-info_tabs li:first-child {
     background: #fff;
     box-shadow: none;
 }
-.ModulesInfo_content {
+.modules-info_content {
     box-shadow: 1px 2px 6px 0 rgba(167, 183, 193, 0.5);
     padding: 40px 30px;
 }

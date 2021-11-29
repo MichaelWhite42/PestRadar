@@ -23,27 +23,27 @@ const DashboardTable = () => {
         sortFunction: {
             location: () => {dispatch(SORT_EVENTS_GRAPH("location"))},
             date: () => {dispatch(SORT_EVENTS_GRAPH("date"))},
-        }
-    }
+        },
+    };
     return (
-        <div className="dashboardTable">
-            <div className="dashboardTable_headTable headTable">
-                <p className="headTable_header">Latest Events</p>
-                <div className="headTable_settings">
-                    <div className="headTable_tabs">
-                        <button className="headTable_tabs--btn headTable_tabs--btn-active">Day</button>
-                        <button className="headTable_tabs--btn">Week</button>
-                        <button className="headTable_tabs--btn">Year</button>
+        <div className="dashboard-table">
+            <div className="dashboard-table_head-table head-table">
+                <p className="head-table_header">Latest Events</p>
+                <div className="head-table_settings">
+                    <div className="head-table_tabs">
+                        <button className="head-table_tabs--btn head-table_tabs--btn-active">Day</button>
+                        <button className="head-table_tabs--btn">Week</button>
+                        <button className="head-table_tabs--btn">Year</button>
                     </div>
-                    <div className="headTable_data">
-                        <div className="daySelect">
-                            <div className="selectPeriod">
+                    <div className="head-table_data">
+                        <div className="day-select">
+                            <div className="select-period">
                                 Select Period
                             </div>
-                            <div className="dateFrom">
+                            <div className="date-from">
                                 <input type="date" placeholder="From" className="calendar" required></input>
                             </div>
-                            <div className="dateTo">
+                            <div className="date-to">
                                 <input type="date" placeholder="To" className="calendar" required></input>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ const DashboardTable = () => {
             </div>
             <Table data={data}/>
         </div>
-    )
-}
+    );
+};
 
 export default DashboardTable;

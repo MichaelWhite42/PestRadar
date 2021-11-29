@@ -1,4 +1,4 @@
-.DashboardModulesCard {
+.dashboard-modules-card {
     margin: 25px 40px;
     padding: 30px 20px;
     border-radius: 10px;
@@ -7,18 +7,18 @@
     display: flex;
     color: #2d4b66;
 }
-.DashboardModulesCard_info {
+.dashboard-modules-card_info {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.DashboardModulesCard_info--item {
+.dashboard-modules-card_info--item {
     margin-bottom: 20px;
 }
-.DashboardModulesCard_info--item.red {
+.dashboard-modules-card_info--item.red {
     color: red;
 }
-.DashboardModulesCard_info--item a {
+.dashboard-modules-card_info--item a {
     color: #0091ff;
     text-decoration: underline;
     cursor: pointer;

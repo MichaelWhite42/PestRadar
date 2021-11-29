@@ -22,21 +22,21 @@ export default class EventsPhotosSlider extends React.Component {
                     breakpoint: 1200,
                     settings: {
                         slidesToShow: 3.5,
-                    }
-                }
-            ]
-        }
+                    },
+                },
+            ],
+        };
         return (
-            <div className="eventsPhotoSlider">
-                <h2 className='eventsPhotoSlider_header'>Photo {data.length}</h2>
+            <div className="events-photo_slider">
+                <h2 className='events-photo_slider_header'>Photo {data.length}</h2>
                 <Slider {...settings} className="slider">
                     {data.map(item => (
-                        <div className="eventsPhotoSlider_item" key={item.key}>
-                            <img className="eventsPhotoSlider_photo" src={item.img} alt="img: Photo"/>
+                        <div className="events-photo_slider_item" key={item.key}>
+                            <img className="events-photo_slider_photo" src={item.img} alt="img: Photo"/>
                         </div>
                     ))}
                 </Slider>
             </div>
-        )
-    }
-}
+        );
+    };
+};

@@ -4,6 +4,6 @@ const Checkbox = () => {
     return (
         <input className="checkbox" type="checkbox" />
     );
-}
+};
 
 export default Checkbox;

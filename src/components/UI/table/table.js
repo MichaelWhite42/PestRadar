@@ -2,6 +2,7 @@ import { faSortAmountDownAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Tags from "../tags/tags";
 
 const Table = ({data}) => {
     const headerTable = data.headerTable;
@@ -11,7 +12,7 @@ const Table = ({data}) => {
     const sortLocation = data.sortFunction.location;
     const sortDate = data.sortFunction.date;
 
-    const checkboxFnc = <input type="checkbox" className="checkbox"/>
+    const checkboxFnc = <input type="checkbox" className="checkbox"/>;
     const sortCheckbox = () => {
         return (
             <FontAwesomeIcon icon={faSortAmountDownAlt}/>
@@ -21,7 +22,7 @@ const Table = ({data}) => {
     const GetTableHeader = () => {
         const keysHeaders = Object.keys(headerTable);
         return (
-            <tr className="tableHeader">
+            <tr className="table-header">
                 {checkbox ? (<label>{checkboxFnc && (<span/>)}</label>) : ""}
                 {keysHeaders.map((item) => {
                     return (
@@ -30,11 +31,11 @@ const Table = ({data}) => {
                             {sort && (headerTable[item] === 'Location' ? sortCheckbox(sortLocation) : "")}
                             {sort && (headerTable[item] === 'Date and time' ? sortCheckbox(sortDate) : "")}
                         </th>
-                    )
+                    );
                 })}
             </tr>
-        )
-    }
+        );
+    };
 
     return (
         <table className="table">
@@ -44,7 +45,7 @@ const Table = ({data}) => {
                     <NavLink to={!sort && !checkbox ? '/modules/:info' + item.id : '' || sort && checkbox ? '/events/:info' + item.id : ''}>
                         <tr>
                             {checkbox ? (<label>{checkbox ? checkboxFnc && (<span/>) : ''}</label>) : ''}
-                            {!checkbox && !sort ? (<td><div className="statusColor"/>{item.status}</td>) : ''}
+                            {!checkbox && !sort ? (<td><div className="status-color"/>{item.status}</td>) : ''}
                             {!checkbox && !sort ? (<td>{item.id}</td>) : ''}
                             <td>
                                 {item.location}
@@ -53,18 +54,18 @@ const Table = ({data}) => {
                             {!checkbox && !sort ? (<td>{item.temperature}</td>) : ''}
                             {!checkbox && !sort ? (<td>{item.updated}</td>) : ''}
                             {sort ? (<td>{item.date}</td>) : ''}
-                            {checkbox && sort ? (<td><img src={item.events} className="eventsImg" /></td>) : ''}
+                            {checkbox && sort ? (<td><img src={item.events} /></td>) : ''}
                             {!checkbox && sort ? (<td>{item.motionsDetector}</td>) : ''}
-                            {!checkbox && sort ? (<td className="thumbImgBox"><img className="thumbImg" src={item.thumbs} /></td>) : ''}
+                            {!checkbox && sort ? (<td className="thumbImgBox"><img className="thumb-img" src={item.thumbs} /></td>) : ''}
                             {sort ? (<td>{item.videos}</td>) : ''}
                             {sort ? (<td>{item.source}</td>) : ''}
-                            {sort ? (<td>{item.tags}</td>) : ''}
+                            {sort ? (<td><Tags tagName="Fire"/><Tags tagName="Water"/></td>) : ''}
                         </tr>
                     </NavLink>
-                )
+                );
             })}
         </table>
-    )
-}
+    );
+};
 
 export default Table;

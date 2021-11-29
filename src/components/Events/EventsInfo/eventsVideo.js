@@ -10,26 +10,26 @@ class EventsVideoSlider extends React.Component {
             slidesToScroll: 1,
             arrows: true,
             zIndex: 0,
-        }
+        };
         return (
-            <div className="eventsVideoSlider">
-                <h1 className='eventsVideoSlider_header'>Videos (4)</h1>
+            <div className="events-video-slider">
+                <h1 className='events-video-slider_header'>Videos (4)</h1>
                 <Slider {...settings}>
-                    <div className="eventsVideoSlider_item">
-                        <img className="eventsVideoSlider_video" src='https://static.turbosquid.com/Preview/2019/02/14__08_05_01/Warehouse_interior_And_Exterior_3D_model_2_render4.jpg62F918EE-996B-40DD-8633-FDA78EEB6E86Default.jpg' alt="img: Video"/>
-                        <span className="eventsVideoSlider_text">Video 1/4, Source: Camera 12</span>
+                    <div className="events-video-slider_item">
+                        <img className="events-video-slider_video" src='https://static.turbosquid.com/Preview/2019/02/14__08_05_01/Warehouse_interior_And_Exterior_3D_model_2_render4.jpg62F918EE-996B-40DD-8633-FDA78EEB6E86Default.jpg' alt="img: Video"/>
+                        <span className="events-video-slider_text">Video 1/4, Source: Camera 12</span>
                     </div>
-                    <div className="eventsVideoSlider_item">
-                        <img className="eventsVideoSlider_video" src='https://static.turbosquid.com/Preview/2019/02/14__08_05_01/Warehouse_interior_And_Exterior_3D_model_2_render4.jpg62F918EE-996B-40DD-8633-FDA78EEB6E86Default.jpg' alt="img: Video"/>
-                        <span className="eventsVideoSlider_text">Video 1/4, Source: Camera 12</span>
+                    <div className="events-video-slider_item">
+                        <img className="events-video-slider_video" src='https://static.turbosquid.com/Preview/2019/02/14__08_05_01/Warehouse_interior_And_Exterior_3D_model_2_render4.jpg62F918EE-996B-40DD-8633-FDA78EEB6E86Default.jpg' alt="img: Video"/>
+                        <span className="events-video-slider_text">Video 1/4, Source: Camera 12</span>
                     </div>
-                    <div className="eventsVideoSlider_item">
-                        <img className="eventsVideoSlider_video" src='https://static.turbosquid.com/Preview/2019/02/14__08_05_01/Warehouse_interior_And_Exterior_3D_model_2_render4.jpg62F918EE-996B-40DD-8633-FDA78EEB6E86Default.jpg' alt="img: Video"/>
-                        <span className="eventsVideoSlider_text">Video 1/4, Source: Camera 12</span>
+                    <div className="events-video-slider_item">
+                        <img className="events-video-slider_video" src='https://static.turbosquid.com/Preview/2019/02/14__08_05_01/Warehouse_interior_And_Exterior_3D_model_2_render4.jpg62F918EE-996B-40DD-8633-FDA78EEB6E86Default.jpg' alt="img: Video"/>
+                        <span className="events-video-slider_text">Video 1/4, Source: Camera 12</span>
                     </div>
-                    <div className="eventsVideoSlider_item">
-                        <img className="eventsVideoSlider_video" src='https://static.turbosquid.com/Preview/2019/02/14__08_05_01/Warehouse_interior_And_Exterior_3D_model_2_render4.jpg62F918EE-996B-40DD-8633-FDA78EEB6E86Default.jpg' alt="img: Video"/>
-                        <span className="eventsVideoSlider_text">Video 1/4, Source: Camera 12</span>
+                    <div className="events-video-slider_item">
+                        <img className="events-video-slider_video" src='https://static.turbosquid.com/Preview/2019/02/14__08_05_01/Warehouse_interior_And_Exterior_3D_model_2_render4.jpg62F918EE-996B-40DD-8633-FDA78EEB6E86Default.jpg' alt="img: Video"/>
+                        <span className="events-video-slider_text">Video 1/4, Source: Camera 12</span>
                     </div>
                 </Slider>
             </div>
@@ -39,7 +39,7 @@ class EventsVideoSlider extends React.Component {
 
 const EventsVideo = () => {
     return (
-        <div className="eventsVideo">
+        <div className="events-video">
             <EventsVideoSlider />
         </div>
     );

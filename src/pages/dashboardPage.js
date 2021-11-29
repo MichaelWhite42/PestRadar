@@ -8,7 +8,7 @@ const DashboardPage = () => {
             <DashoboardModulesCard />
             <DashboardTable />
         </div>
-    )
-}
+    );
+};
 
 export default DashboardPage;

@@ -5,7 +5,7 @@ const SettingsPage = () => {
         <div className="container">
             <SettingCard/>
         </div>
-    )
-}
+    );
+};
 
 export default SettingsPage;

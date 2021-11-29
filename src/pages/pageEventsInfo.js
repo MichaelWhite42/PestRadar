@@ -9,7 +9,7 @@ const PageEventsInfo = () => {
             <EventPhoto />
             <EventsScreenshots />
         </div>
-    )
-}
+    );
+};
 
 export default PageEventsInfo;

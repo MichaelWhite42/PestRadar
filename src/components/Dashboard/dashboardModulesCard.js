@@ -3,17 +3,17 @@ import { NavLink } from "react-router-dom";
 
 const DashoboardModulesCard = () => {
     return (
-        <div className="DashboardModulesCard">
-          <div className="DashboardModulesCard_info">
-            <p className="DashboardModulesCard_info--item">
+        <div className="dashboard-modules-card">
+          <div className="dashboard-modules-card_info">
+            <p className="dashboard-modules-card_info--item">
               {" "}
-              Modules Registered: {}
+              Modules Registered: 4
               <NavLink to="/modules">
                 View modules
               </NavLink>
             </p>
-            <p className="DashboardModulesCard_info--item">Online: {}</p>
-            <p className="DashboardModulesCard_info--item red">Offline: {}</p>
+            <p className="dashboard-modules-card_info--item">Online: 3</p>
+            <p className="dashboard-modules-card_info--item red">Offline: 1</p>
           </div>
         </div>
     );

@@ -12,7 +12,7 @@ const Tags = ({tagName}) => {
     }
 
     return (
-        <span className={clsTag.join("")}>{tagName}</span>
+        <div className={clsTag.join("")}>{tagName}</div>
     )
 }
 

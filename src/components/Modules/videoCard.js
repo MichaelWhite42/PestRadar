@@ -12,23 +12,23 @@ const VideoCard = () => {
     ];
 
     return (
-        <div className="cardVideo">
-            <div className="cardVideo_info">
-                <p className="cardVideo_info--item"> Modules Registered: {}</p>
-                <p className="cardVideo_info--item">Online: {}</p>
-                <p className="cardVideo_info--item cardVideo_info--item-red">Offline: {}</p>
+        <div className="video-card">
+            <div className="video-card_info">
+                <p className="video-card_info--item"> Modules Registered: {array.length}</p>
+                <p className="video-card_info--item">Online: 6</p>
+                <p className="video-card_info--item video-card_info--item-red">Offline: 1</p>
             </div>
-            <div className="cardVideo_content">
+            <div className="video-card_content">
                 {array.map((item) => {
                     return (
-                        <div className="videoBox">
+                        <div className="video-box">
                             <img src={item.videoImg} />
                         </div>
                     )
                 })}
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default VideoCard;

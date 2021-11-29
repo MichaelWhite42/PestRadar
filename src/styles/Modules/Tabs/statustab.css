@@ -1,27 +1,27 @@
-.cameraFunctionalityMenu {
+.camera_functionality-menu {
     padding-left: 10px;
 }
-.StatusTab_info .checkBoxContainer {
+.status-tab_info .checkbox_container {
     margin: 10px 0;
 }
-.cameraFunctionalityMenu .resolutionBox {
+.camera_functionality-menu .resolution-box {
     display: flex;
     flex-direction: column;
     width: 300px;
     margin: 10px 0;
 }
-.cameraFunctionalityMenu .resolutionBox span,
-.cameraFunctionalityMenu .resolutionBox select {
+.camera_functionality-menu .resolution-box span,
+.camera_functionality-menu .resolution-box select {
     margin: 5px 0;
 }
-.cameraFunctionalityMenu .resolutionBox select {
+.camera_functionality-menu .resolution-box select {
     border: 1px solid #b9cad8;
     border-radius: 4px;
     display: flex;
     align-items: center;
     padding: 5px;
 }
-.cameraFunctionalityMenu .cameraOptions {
+.camera_functionality-menu .camera-options {
     display: flex;
     justify-content: space-between;
     width: 650px;

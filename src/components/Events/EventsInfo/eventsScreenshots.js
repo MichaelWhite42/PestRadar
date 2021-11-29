@@ -5,12 +5,12 @@ const EventsScreenshots = () => {
     const dataPhoto = {
         header: 'Screenshots',
         img: ['https://www.alistairgroup.com/wp-content/uploads/2017/07/mdenga-warehouse-inside-alistair-group-01.jpg', 'https://www.alistairgroup.com/wp-content/uploads/2017/07/mdenga-warehouse-inside-alistair-group-01.jpg', 'https://www.alistairgroup.com/wp-content/uploads/2017/07/mdenga-warehouse-inside-alistair-group-01.jpg'],
-    }
+    };
     return (
-        <div className="eventsPhoto">
+        <div className="events-photo">
             <EventsPhotosSlider data={dataPhoto}/>
         </div>
-    )
-}
+    );
+};
 
 export default EventsScreenshots;
