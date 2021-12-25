@@ -10,7 +10,7 @@ import SettingsPage from "./pages/settingsPage";
 const RoutesComponent = () => {
     return (
         <Routes>
-            <Route path='/' element={(<DashboardPage/>)}/>
+            <Route path='/PestRadar' element={(<DashboardPage/>)}/>
             <Route path='/events' element={(<EventsPage/>)}/>
             <Route path='/events/:info' element={(<PageEventsInfo/>)}/>
             <Route path='/modules' element={(<ModulesInfoPage />)}/>
