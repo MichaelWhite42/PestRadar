@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PestRadar/static/css/main.4c98b474.chunk.css",
+    "main.js": "/PestRadar/static/js/main.fc00314b.chunk.js",
+    "main.js.map": "/PestRadar/static/js/main.fc00314b.chunk.js.map",
+    "runtime-main.js": "/PestRadar/static/js/runtime-main.0398b6c6.js",
+    "runtime-main.js.map": "/PestRadar/static/js/runtime-main.0398b6c6.js.map",
+    "static/js/2.e72b51f3.chunk.js": "/PestRadar/static/js/2.e72b51f3.chunk.js",
+    "static/js/2.e72b51f3.chunk.js.map": "/PestRadar/static/js/2.e72b51f3.chunk.js.map",
+    "static/js/3.61f7a522.chunk.js": "/PestRadar/static/js/3.61f7a522.chunk.js",
+    "static/js/3.61f7a522.chunk.js.map": "/PestRadar/static/js/3.61f7a522.chunk.js.map",
+    "index.html": "/PestRadar/index.html",
+    "static/css/main.4c98b474.chunk.css.map": "/PestRadar/static/css/main.4c98b474.chunk.css.map",
+    "static/js/2.e72b51f3.chunk.js.LICENSE.txt": "/PestRadar/static/js/2.e72b51f3.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/PestRadar/static/media/SFProText-Regular.17ab968e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0398b6c6.js",
+    "static/js/2.e72b51f3.chunk.js",
+    "static/css/main.4c98b474.chunk.css",
+    "static/js/main.fc00314b.chunk.js"
+  ]
+}
