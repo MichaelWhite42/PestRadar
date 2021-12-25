@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./tags.css";
+import style from "./tags.scss"
 
 const Tags = ({tagName}) => {
     const clsTag = [style.tag];

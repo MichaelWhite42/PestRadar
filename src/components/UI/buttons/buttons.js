@@ -1,7 +1,7 @@
 import { faDownload, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import style from './buttons.css'
+import style from './buttons.scss'
 
 const Button = ({ text, color, icon, fncBtn }) => {
     const clsBtn = [style.btn];

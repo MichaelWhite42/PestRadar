@@ -1,0 +1,11 @@
+.events-video {
+    overflow: hidden;
+    margin: 20px 40px;
+    .events-video-slider_item {
+        margin: 0 10px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

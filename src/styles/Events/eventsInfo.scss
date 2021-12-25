@@ -1,0 +1,28 @@
+.events-info {
+    color: $defaultColor;
+    margin: 25px 40px;
+    .events-info_head{
+        display: flex;
+        align-items: flex-end;
+        .events-info_header {
+            font-size: 1.5em;
+        }
+    }
+    .events-info--item{
+        display: flex;
+        margin: 10px 0;
+    }
+    .events-info_dateInfo {
+        .events-info_time {
+            margin-left: 15px;
+        }
+    }
+    .events-info_bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .events-info_tags {
+            display: flex;
+        }
+    }
+}

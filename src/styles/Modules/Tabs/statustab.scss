@@ -1,0 +1,31 @@
+.status-tab {
+    .status-tab_info {
+        .checkbox_container {
+            margin: 10px 0;
+        }
+    }
+    .camera_functionality-menu {
+        padding-left: 10px;
+        .resolution-box {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 10px 0;
+            span, select {
+                margin: 5px 0;
+            }
+            select {
+                border: 1px solid #b9cad8;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                padding: 5px;
+            }
+        }
+        .camera-options {
+            display: flex;
+            justify-content: space-between;
+            width: 650px;
+        }
+    }
+}

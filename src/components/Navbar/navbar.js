@@ -19,12 +19,12 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <ul className="navbar_menu-list">
+            <ul className="navbar__list">
                 {menuList.map((item) => (
                     <li key={item.id}>
                         <NavLink
-                            className={`navbar_item ${
-                                activeTab === item.id ? "navbar_item--active" : ""
+                            className={`navbar__item ${
+                                activeTab === item.id ? "navbar__item--active" : ""
                             }`}
                             to={`${item.link}`}
                             onClick={() => {
@@ -36,10 +36,10 @@ const Navbar = () => {
                     </li>
                 ))}
             </ul>
-            <div className="navbar_support">
-                <a href="#" className="navbar_support--link navbar_item">
+            <div className="navbar__support">
+                <a href="#" className="support">
                     <FontAwesomeIcon icon={faPhoneAlt}/>
-                    <span className="navbar_support--text">Support</span>
+                    <span className="support__text">Support</span>
                 </a>
             </div>
         </nav>

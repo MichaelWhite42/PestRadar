@@ -1,0 +1,22 @@
+.input-area {
+    position: relative;
+    .search-area {
+        width: 343px;
+        height: 36px;
+        padding: 7px 40px;
+        border-radius: 10px;
+        background-color: $searchBg;
+        border: none;
+        margin-right: 25px;
+        outline: none;
+    }
+    .info {
+        position: absolute;
+        top: 50%;
+        left: 12px;
+        font-size: 20px;
+        opacity: 0.5;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+}

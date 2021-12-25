@@ -1,8 +1,8 @@
 .video-card {
     margin: 25px 40px;
     border-radius: 10px;
-    box-shadow: 1px 2px 6px 0 rgba(167, 183, 193, 0.5);
-    color: #2d4b66;
+    box-shadow: $shadow;
+    color: $navy;
 }
 .video-card_info {
     display: flex;
@@ -10,7 +10,7 @@
     padding: 10px 0 0 10px;
 }
 .video-card_info--item-red {
-    color: red;
+    color: $red;
 }
 .video-card_info p {
     margin: 10px;

@@ -1,0 +1,67 @@
+.dashboard-table {
+    margin: 25px 40px;
+    border-radius: 10px;
+    box-shadow: $shadow;
+    color: $lightGray;
+    .dashboard-table_head-table {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+        .head-table_settings {
+            display: flex;
+            align-items: center;
+            .head-table_tabs {
+                margin-right: 15px;
+                .head-table_tabs--btn {
+                    background-color: $heavyWhite;
+                    padding: 10px 30px;
+                    border-right: 2px solid $white;
+                    cursor: pointer;
+                    color: $lightGray;
+                    &:hover {
+                        background: $lightBlue;
+                    }
+                }
+                .head-table_tabs--btn-active {
+                    color: $navy;
+                }
+            }
+            .head-table_data {
+                .day-select {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .select-period {
+                        word-wrap: break-word;
+                        width: 50px;
+                        color: rgba(0,0,0, 0.4);
+                        margin-right: 10px;
+                    }
+                    .calendar {
+                        border: none;
+                        padding: 7px 10px;
+                        outline: none;
+                        background: $heavyWhite;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+input[type="date"]::before {
+	color: $lightGray;
+	content: attr(placeholder);
+}
+input[type="date"] {
+	color: $heavyWhite;
+}
+input[type="date"]:focus,
+input[type="date"]:valid {
+	color: $darkGray;
+}
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+	content: "" !important;
+}

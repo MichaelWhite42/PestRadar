@@ -51,6 +51,12 @@ label {
 .checkbox:checked ~ .check::after {
     transform: translateX(0px);
 }
+.checkbox_container {
+    label {
+        display: flex;
+        align-items: center;
+    }
+}
 
 .table span {
     position: relative;
