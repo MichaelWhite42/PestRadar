@@ -5,13 +5,14 @@ import { TABS } from "../../store/types";
 import { changeTab } from "../../store/actions/tabActions";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { DASHBOARD } from "../Dashboard/types";
 
 const Navbar = () => {
     const dispatch = useDispatch()
     const activeTab = useSelector(state => state.tabReducer.activeTab)
 
     const menuList = [
-        {name: "Dashboard", link: "/", id: TABS.DASHBOARD,},
+        {name: "Dashboard", link: "/", id: DASHBOARD,},
         {name: "Events", link: "/events", id: TABS.EVENTS,},
         {name: "Modules", link: "/modules", id: TABS.MODULES,},
         {name: "Settings", link: "/settings", id: TABS.SETTINGS,},

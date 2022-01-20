@@ -8,6 +8,7 @@
 $font: SFProText;
 $defaultColor: #1f3b51;
 $white: #fff;
+$tableCellColor: #eef4f8;
 $heavyWhite: #f0f5fa;
 $lightBlue: #dce8f5;
 $gray: rgba(255, 255, 255, 0.5);
@@ -26,3 +27,15 @@ $navbar-border: 1px solid rgba(255, 255, 255, 0.2);
 $shadow: 1px 2px 6px 0 rgba(167, 183, 193, 0.5);
 $headerShadow: 0 2px 4px 0 rgba(50, 123, 152, 0.14);
 $searchBg: rgba(171, 171, 171, 0.1);
+
+@mixin moduleDefaultStyles {
+    margin: 25px 40px;
+    border-radius: 10px;
+    box-shadow: $shadow;
+}
+@mixin tableCellStyles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}

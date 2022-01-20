@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router";
-import ModulesInfo from "./components/Modules/modulesInfo";
+import ModulesInfo from "./modules/Modules/modulesInfo";
 import DashboardPage from "./pages/dashboardPage";
 import EventsPage from "./pages/eventsPage";
 import ModulesInfoPage from "./pages/modulesInfoPage";

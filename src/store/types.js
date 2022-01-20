@@ -1,5 +1,4 @@
 export const TABS = {
-    DASHBOARD: 'DASHBOARD',
     EVENTS: 'EVENTS',
     MODULES: 'MODULES',
     SETTINGS: 'SETTINGS'

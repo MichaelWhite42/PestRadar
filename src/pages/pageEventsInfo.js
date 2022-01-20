@@ -1,9 +1,9 @@
 import React from "react";
-import { EventInfo, EventsVideo, EventPhoto, EventsScreenshots } from "../components/Events/EventsInfo";
+import { EventInfo, EventsVideo, EventPhoto, EventsScreenshots } from "../modules/Events/EventsInfo";
 
 const PageEventsInfo = () => {
     return (
-        <div className="container">
+        <div className="app__page events__info">
             <EventInfo />
             <EventsVideo />
             <EventPhoto />

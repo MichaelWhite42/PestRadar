@@ -1,8 +1,8 @@
 import React from "react";
-import Tags from "../../UI/tags/tags";
-import Button from "../../UI/buttons/buttons";
 import { CSVLink } from "react-csv";
 import { useSelector } from "react-redux";
+import Tags from "../../../components/UI/tags/tags";
+import Button from "../../../components/UI/buttons/buttons";
 
 const EventInfo = () => {
     const itemsData = useSelector(state => state.reducer.items);

@@ -15,15 +15,15 @@ const Table = ({data}) => {
     const checkboxFnc = <input type="checkbox" className="checkbox"/>;
     const sortCheckbox = () => {
         return (
-            <FontAwesomeIcon icon={faSortAmountDownAlt}/>
+            <FontAwesomeIcon className="table__header__sort-btn" icon={faSortAmountDownAlt}/>
         );
     };
 
     const GetTableHeader = () => {
         const keysHeaders = Object.keys(headerTable);
         return (
-            <tr className="table-header">
-                {checkbox ? (<label>{checkboxFnc && (<span/>)}</label>) : ""}
+            <tr className="table__header table__cell">
+                {checkbox ? (<label> {checkboxFnc && (<span/>)} </label>) : ""}
                 {keysHeaders.map((item) => {
                     return (
                         <th>
@@ -43,13 +43,11 @@ const Table = ({data}) => {
             {info.map((item) => {
                 return (
                     <NavLink to={!sort && !checkbox ? '/modules/:info' + item.id : '' || sort && checkbox ? '/events/:info' + item.id : ''}>
-                        <tr>
+                        <tr className={sort && !checkbox ? "table__cell table__dashboard-cell" : 'table__cell'}>
                             {checkbox ? (<label>{checkbox ? checkboxFnc && (<span/>) : ''}</label>) : ''}
                             {!checkbox && !sort ? (<td><div className="status-color"/>{item.status}</td>) : ''}
                             {!checkbox && !sort ? (<td>{item.id}</td>) : ''}
-                            <td>
-                                {item.location}
-                            </td>
+                            <td>{item.location}</td>
                             {!checkbox && !sort ? (<td>{item.upload}</td>) : ''}
                             {!checkbox && !sort ? (<td>{item.temperature}</td>) : ''}
                             {!checkbox && !sort ? (<td>{item.updated}</td>) : ''}

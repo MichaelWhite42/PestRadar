@@ -1,10 +1,10 @@
 import React from "react";
-import ModulesTable from "../components/Modules";
-import VideoCard from "../components/Modules";
+import ModulesTable from "../modules/Modules";
+import VideoCard from "../modules/Modules";
 
 const ModulesPage = () => {
     return (
-        <div className="container">
+        <div className="app__page modules">
             <VideoCard />
             <ModulesTable />
         </div>

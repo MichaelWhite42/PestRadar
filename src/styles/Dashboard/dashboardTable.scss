@@ -1,19 +1,17 @@
 .dashboard-table {
-    margin: 25px 40px;
-    border-radius: 10px;
-    box-shadow: $shadow;
+    @include moduleDefaultStyles;
     color: $lightGray;
-    .dashboard-table_head-table {
+    &__head-table {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 20px 20px;
-        .head-table_settings {
+        &__settings {
             display: flex;
             align-items: center;
-            .head-table_tabs {
+            .tabs {
                 margin-right: 15px;
-                .head-table_tabs--btn {
+                &__btn {
                     background-color: $heavyWhite;
                     padding: 10px 30px;
                     border-right: 2px solid $white;
@@ -23,12 +21,12 @@
                         background: $lightBlue;
                     }
                 }
-                .head-table_tabs--btn-active {
+                &__btn--active {
                     color: $navy;
                 }
             }
-            .head-table_data {
-                .day-select {
+            .date {
+                &__day-select {
                     display: flex;
                     justify-content: center;
                     align-items: center;

@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { SORT_EVENTS_GRAPH } from "../../store/types";
-import Table from "../UI/table/table";
+import Table from "../../components/UI/table/table";
 
 const DashboardTable = () => {
     const itemsData = useSelector(state => state.reducer.items);
@@ -21,29 +21,29 @@ const DashboardTable = () => {
         checkbox: false,
         sort: true,
         sortFunction: {
-            location: () => {dispatch(SORT_EVENTS_GRAPH("location"))},
+            location: () => {dispatch(SORT_EVENTS_GRAPH('location'))},
             date: () => {dispatch(SORT_EVENTS_GRAPH("date"))},
         },
     };
     return (
         <div className="dashboard-table">
-            <div className="dashboard-table_head-table head-table">
-                <p className="head-table_header">Latest Events</p>
-                <div className="head-table_settings">
-                    <div className="head-table_tabs">
-                        <button className="head-table_tabs--btn head-table_tabs--btn-active">Day</button>
-                        <button className="head-table_tabs--btn">Week</button>
-                        <button className="head-table_tabs--btn">Year</button>
+            <div className="dashboard-table__head-table">
+                <p className="dashboar-table__head-table__header">Latest Events</p>
+                <div className="dashboard-table__head-table__settings">
+                    <div className="tabs">
+                        <button className="tabs__btn tabs__btn--active">Day</button>
+                        <button className="tabs__btn">Week</button>
+                        <button className="tabs__btn">Year</button>
                     </div>
-                    <div className="head-table_data">
-                        <div className="day-select">
+                    <div className="date">
+                        <div className="date__day-select">
                             <div className="select-period">
                                 Select Period
                             </div>
-                            <div className="date-from">
+                            <div>
                                 <input type="date" placeholder="From" className="calendar" required></input>
                             </div>
-                            <div className="date-to">
+                            <div>
                                 <input type="date" placeholder="To" className="calendar" required></input>
                             </div>
                         </div>

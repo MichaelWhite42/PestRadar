@@ -1,7 +1,7 @@
-import Table from "../UI/table/table";
 import React from "react";
 import { SORT_EVENTS_GRAPH } from "../../store/types";
 import { useDispatch } from "react-redux";
+import Table from "../../components/UI/table/table";
 
 const ModulesTable = () => {
   const dispatch = useDispatch();
@@ -29,7 +29,7 @@ const ModulesTable = () => {
     };
     return (
         <div className="modules-table">
-            <Table data={data}/>
+            <Table data={data} />
         </div>
     );
 };

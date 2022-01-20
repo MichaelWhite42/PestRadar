@@ -1,8 +1,9 @@
-import SettingCard from "../components/Settings";
+import SettingCard from "../modules/Settings";
+import React from "react";
 
 const SettingsPage = () => {
     return (
-        <div className="container">
+        <div className="app__page settings">
             <SettingCard/>
         </div>
     );

@@ -1,5 +1,5 @@
 import React from "react";
-import Checkbox from "../UI/checkbox/toggleCheckbox";
+import Checkbox from "../../components/UI/checkbox/toggleCheckbox";
 
 const StatusTab = () => {
     return (

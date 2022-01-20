@@ -1,25 +1,25 @@
-.dashboard-modules-card {
-    margin: 25px 40px;
-    padding: 30px 20px;
-    border-radius: 10px;
-    box-shadow: $shadow;
-    background-color: $white;
-    display: flex;
-    color: $navy;
-    .dashboard-modules-card_info {
+.dashboard {
+    &__modules-card {
+        @include moduleDefaultStyles;
+        background-color: $white;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        .dashboard-modules-card_info--item {
-            margin-bottom: 20px;
-            &.red {
-                color: $red;
-            }
-            a {
-                color: $logOutColor;
-                text-decoration: underline;
-                cursor: pointer;
-                margin-left: 20px;
+        color: $navy;
+        padding: 30px 20px;
+        &__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            &__item {
+                margin-bottom: 20px;
+                &.red {
+                    color: $red;
+                }
+                a {
+                    color: $logOutColor;
+                    text-decoration: underline;
+                    cursor: pointer;
+                    margin-left: 20px;
+                }
             }
         }
     }

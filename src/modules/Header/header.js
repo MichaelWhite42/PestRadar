@@ -1,4 +1,5 @@
 import Search from "./search";
+import React from "react";
 
 const Header = () => {
     return (
