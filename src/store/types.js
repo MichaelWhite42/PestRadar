@@ -8,3 +8,4 @@ export const CHANGE_TAB = 'TABS/CHANGE_TAB'
 
 export const SET_GRAPH = 'SET_GRAPH'
 export const SORT_EVENTS_GRAPH = 'SORT_EVENT_GRAPH'
+export const INIT_TODOS = 'INIT_TODOS'

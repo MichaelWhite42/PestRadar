@@ -23,10 +23,10 @@ const Table = ({data}) => {
         const keysHeaders = Object.keys(headerTable);
         return (
             <tr className="table__header table__cell">
-                {checkbox ? (<label> {checkboxFnc && (<span/>)} </label>) : ""}
+                {checkbox ? (<label>{checkboxFnc && (<span/>)}</label>) : ""}
                 {keysHeaders.map((item) => {
                     return (
-                        <th>
+                        <th key={item}>
                             {headerTable[item]}
                             {sort && (headerTable[item] === 'Location' ? sortCheckbox(sortLocation) : "")}
                             {sort && (headerTable[item] === 'Date and time' ? sortCheckbox(sortDate) : "")}
@@ -42,9 +42,9 @@ const Table = ({data}) => {
             <GetTableHeader/>
             {info.map((item) => {
                 return (
-                    <NavLink to={!sort && !checkbox ? '/modules/:info' + item.id : '' || sort && checkbox ? '/events/:info' + item.id : ''}>
+                    <NavLink key={item.key} to={!sort && !checkbox ? '/modules/:info' + item.id : '' || sort && checkbox ? '/events/:info' + item.id : ''}>
                         <tr className={sort && !checkbox ? "table__cell table__dashboard-cell" : 'table__cell'}>
-                            {checkbox ? (<label>{checkbox ? checkboxFnc && (<span/>) : ''}</label>) : ''}
+                            {checkbox ? (<><label>{checkbox ? checkboxFnc && (<span/>) : ''}</label></>) : ''}
                             {!checkbox && !sort ? (<td><div className="status-color"/>{item.status}</td>) : ''}
                             {!checkbox && !sort ? (<td>{item.id}</td>) : ''}
                             <td>{item.location}</td>
