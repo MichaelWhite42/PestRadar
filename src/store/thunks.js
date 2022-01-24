@@ -9,7 +9,10 @@ export const getItems = () => {
                     type: INIT_TODOS,
                     payload: items
                 })
-                console.log(items)
+                console.log(items);
+                console.log('Request complited')
+            }).catch((error) => {
+                console.log(error)
             })
     }
 }

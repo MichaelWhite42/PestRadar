@@ -1,5 +1,6 @@
 export const getAllItems = () => {
     return new Promise((resolve) => {
+        console.log('Request started')
         setTimeout(() => {
             resolve({
                 items: [
